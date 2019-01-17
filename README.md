@@ -31,6 +31,7 @@ Graphs mobile data coverage for selected area.
 
 #### As it is an MVP I used:
 
+- I kept the project structure very simple
 - Flask as its good for prototyping and rapid development
 - Pandas as its easy to work with and modify data and its fast
 - Highchart js because I saw this as an opportunity to try it out
