@@ -37,11 +37,17 @@ Graphs mobile data coverage for selected area.
 - Highchart js because I saw this as an opportunity to try it out
 - Python as it it cross platform, and its what I am comfortable with
 
-#### Other considerations with regards to all libraries used:
+#### With regards to all libraries used:
 
 - They must be well documented
 - Well maintained
 - Stable and commonly used in production
 - Decent sized online community 
+
+#### Other considerations
+
+- No tests due to time limitations
+- No database as its serving static data
+- Not optomised for web deployment as that was not required by the task brief
 
 Thank you!
