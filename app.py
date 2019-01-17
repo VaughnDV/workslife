@@ -7,7 +7,7 @@
     Date: 17 January 2019
 
     prerequisite: python version 3.7+
-                  pip version 10+
+                  pip
 
     Setup in terminal:
         pip install -r requirements.txt
