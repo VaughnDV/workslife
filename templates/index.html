@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta charset="utf-8">
+
+    <link href="./static/css/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <div align="center" style="padding-top:50px;padding-bottom:50px;">
+        <form method="POST" action="/">
+            <h1>Mobile coverage lookup tool</h1>
+            {{ form.csrf_token }}
+            {{ form.locations() }}
+            <input type="submit" value="Lookup">
+        </form>
+        <div style="padding-top:50px;padding-left:50px;padding-right:50px;">
+            Ofcom collected and analysed data from all
+            the mobile network operators. Mobile network coverage and data usage
+            information from the operators, aggregated at local authority level.
+        </div>
+        <div style="padding-top:20px;padding-left:50px;padding-right:50px;">
+            The coverage data was collected as a snapshot in June 2016. The capacity data was
+            collected over the month of June 2016.
+        </div>
+    </div>
+    
+</body>
+
+</html>
