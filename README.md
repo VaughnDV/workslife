@@ -4,7 +4,7 @@ Flask app serving csv data using pandas.
 Graphs mobile data coverage for selected area.
 
 
-## Prerequisite
+## Prerequisites
 
 - python version 3.7+
 - pip
@@ -25,7 +25,6 @@ Graphs mobile data coverage for selected area.
 ## Usage
 
 - Navigate browser to: `http://127.0.0.1:5000/` 
-
 
 
 ### Brief background to my decisions
