@@ -8,14 +8,22 @@ Graphs mobile data coverage for selected area.
 
 - python version 3.7+
 - pip
+- bash
 
 
 ## Setup
 
-- Create your virtualenv if required
+Fetch the project from GitHub
+
 - `git clone git@github.com:VaughnDV/workslife.git`
 - `cd workslife`
-- With your own secret keys
+
+Create your virtualenv if required
+
+- `python -m venv venv`
+- `source venv/bin/activate`
+
+With your own secret keys
 - `export SECRET_KEY="your-own-very-sercert-key"`
 - `export WTF_CSRF_SECRET_KEY="your-own-very-sercert-csrf-key"`
 - `pip install -r requirements.txt`
